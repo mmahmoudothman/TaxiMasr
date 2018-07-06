@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TaxiMasr</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_customer_maps">Map</string>
+    <string name="title_activity_post_code">Taxi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MOHAMED TAREK ALI</string>
+    <string name="nav_header_subtitle">+201095913552</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_meshwoark">Map</string>
+    <string name="title_activity_meshwoark2">Map</string>
+    <string name="title_activity_find_driver">Map</string>
+</resources>

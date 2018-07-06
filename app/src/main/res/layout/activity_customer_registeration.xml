@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/Theme.AppCompat.DayNight.NoActionBar"
+    tools:context=".customer.Customer_registeration">
+
+
+
+
+    <ImageView
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logoooo"/>
+
+    <FrameLayout
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:textSize="22sp"
+            android:textColor="@color/red"
+            android:hint="الاسم بالكامل : "
+            android:textColorHint="@color/red"
+            android:background="@drawable/round_bg"
+            android:layout_width="match_parent"
+            android:paddingRight="45dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_gravity="end"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_account_circle"/>
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:textSize="22sp"
+            android:textColor="@color/red"
+            android:hint="رقم التليفون : "
+            android:textColorHint="@color/red"
+            android:background="@drawable/round_bg"
+            android:layout_width="match_parent"
+            android:paddingRight="45dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_gravity="end"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_call"/>
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:textSize="22sp"
+            android:textColor="@color/red"
+            android:hint="البريد الالكتروني :"
+            android:textColorHint="@color/red"
+            android:background="@drawable/round_bg"
+            android:layout_width="match_parent"
+            android:paddingRight="45dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_gravity="end"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_email_black_24dp"/>
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:textSize="22sp"
+            android:textColor="@color/red"
+            android:hint="الرقم السري :"
+            android:textColorHint="@color/red"
+            android:background="@drawable/round_bg"
+            android:layout_width="match_parent"
+            android:paddingRight="45dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_gravity="end"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_vpn"/>
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:textSize="22sp"
+            android:textColor="@color/red"
+            android:hint="تاكد الرقم السري :"
+            android:textColorHint="@color/red"
+            android:background="@drawable/round_bg"
+            android:layout_width="match_parent"
+            android:paddingRight="45dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_gravity="end"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_vpn"/>
+
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_customer_sign_up"
+        android:background="@drawable/solid_round_shape"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="تسجيل الدخول"
+        />
+
+</LinearLayout>

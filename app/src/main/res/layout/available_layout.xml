@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_marginTop="50dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customer.PostCode">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <fragment android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@color/backGround">
+
+            <Button
+                android:background="@drawable/solid_round_shape"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:text="غير متاح "/>
+            <Button
+                android:background="@drawable/solid_round_shape"
+                android:textSize="16sp"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:text="متاح"/>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+
+
+    <Button
+        android:id="@+id/btn_maps_activtiy"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/solid_round_shape"
+        android:textSize="16sp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="موافق"/>
+
+
+</RelativeLayout>
+

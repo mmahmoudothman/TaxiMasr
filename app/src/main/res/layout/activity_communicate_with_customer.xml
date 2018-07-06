@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".driver.DriverCommunicateWithCustomer">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="22sp"
+        android:layout_marginRight="22sp"
+        android:padding="8dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/round_bg"
+        android:text=" مؤمن - شارع لبنان - المهندسين "
+        android:textSize="22sp" />
+
+
+    <Button
+        android:id="@+id/btn_communocated_with_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="178dp"
+        android:background="@drawable/solid_round_shape"
+        android:padding="16sp"
+        android:text="إتجه إلي العميل "
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+
+
+
+
+</RelativeLayout>

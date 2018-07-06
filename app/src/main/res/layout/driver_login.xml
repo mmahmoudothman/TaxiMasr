@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".driver.DriverLogin">
+
+
+
+
+    <ImageView
+    android:layout_marginTop="22dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+        android:src="@drawable/logoooo"
+        />
+
+    <FrameLayout
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:textColorHint="@color/red"
+            android:textSize="22sp"
+            android:textColor="@color/red"
+            android:hint="        رقم الموبايل :"
+            android:padding="6dp"
+
+            android:background="@drawable/round_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="end"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_call"/>
+
+        <!--<ImageView-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_gravity="end"-->
+            <!--android:src="@drawable/ic_launcher_foreground"/>-->
+
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_margin="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:textSize="22sp"
+            android:textColor="@color/red"
+            android:hint="          كلمه السر  :"
+            android:textColorHint="@color/red"
+            android:background="@drawable/round_bg"
+            android:layout_width="match_parent"
+            android:padding="6dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_gravity="end"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_vpn"/>
+
+
+
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/btm_maps"
+        android:background="@drawable/solid_round_shape"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="تسجيل الدخول"
+        />
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/Theme.AppCompat.DayNight.NoActionBar"
+    tools:context=".customer.Customer_registeration">
+
+
+
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/solid_round_shape"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:text="خدمه الجز المسبق"
+        android:layout_marginLeft="50dp"
+
+        />
+
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginLeft="22dp"
+            android:textSize="22sp"
+            android:textColor="@color/red"
+            android:hint=" الميعاد :"
+            android:textColorHint="@color/red"
+            android:background="@drawable/round_bg"
+            android:layout_width="match_parent"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginLeft="22dp"
+            android:textSize="22sp"
+            android:textColor="@color/red"
+            android:hint=" مكان الاستقبال :"
+            android:textColorHint="@color/red"
+            android:background="@drawable/round_bg"
+            android:layout_width="match_parent"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginLeft="22dp"
+            android:textSize="22sp"
+            android:textColor="@color/red"
+            android:hint="  مكان الوصول: "
+            android:textColorHint="@color/red"
+            android:background="@drawable/round_bg"
+            android:layout_width="match_parent"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btm_maps"
+        android:background="@drawable/solid_round_shape"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        android:text="تاكـــيد "
+        />
+
+</LinearLayout>
